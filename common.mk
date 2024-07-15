@@ -98,9 +98,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
 
-# Dex-pre-opt exclusions
-$(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
-
 # ConfigStore
 PRODUCT_PACKAGES += \
     disable_configstore
