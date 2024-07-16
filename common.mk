@@ -94,6 +94,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libsensorndkbridge
 
+PRODUCT_PACKAGES += \
+    Aperture
+
 # ConfigStore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
