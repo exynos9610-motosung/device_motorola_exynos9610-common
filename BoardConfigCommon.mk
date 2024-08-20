@@ -96,11 +96,6 @@ TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_
 TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_SOURCE := kernel/motorola/exynos9610
 
-## HACK
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-KERNEL_TOOLCHAIN := /tmp/src/android/prebuilts/toolchain/bin
-$(shell cp -R prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 prebuilts/toolchain)
-
 ## Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
